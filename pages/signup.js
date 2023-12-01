@@ -42,7 +42,7 @@ function Index() {
           });
   
           // Redirect to the login page or perform any other actions
-          window.location.href = "/login";
+          window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/login";
         } else {
           // Show an error message with the API message
           Swal.fire({
