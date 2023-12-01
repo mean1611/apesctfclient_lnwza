@@ -12,7 +12,7 @@ function ReportManagementcom() {
 
   const getReports = async () => {
     try {
-      const result = await axios.get("http://localhost:8080/api/report");
+      const result = await axios.get("https://apesctfapi.azurewebsites.net/api/report");
       setReports(result.data.data.sort((a, b) => a.report_id - b.report_id));
     } catch (error) {
       console.error("Error fetching Reports:", error);
@@ -54,7 +54,7 @@ function ReportManagementcom() {
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          const response = await axios.delete("http://localhost:8080/api/report/" + report_id);
+          const response = await axios.delete("https://apesctfapi.azurewebsites.net/api/report/" + report_id);
           if (response.status === 200) {
             setSelectedReport(null);
             setReports(reports.filter((report) => report.report_id !== report_id));

@@ -21,7 +21,7 @@ function QuestionManagementcom() {
 
   const getQuestions = async () => {
     try {
-      const result = await axios.get('http://localhost:8080/api/question');
+      const result = await axios.get('https://apesctfapi.azurewebsites.net/api/question');
       setQuestions(result.data.data.sort((a, b) => a.question_id - b.question_id));
     } catch (error) {
       console.error('Error fetching questions:', error);
@@ -73,7 +73,7 @@ function QuestionManagementcom() {
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          const response = await axios.delete('http://localhost:8080/api/question/' + question_id);
+          const response = await axios.delete('https://apesctfapi.azurewebsites.net/api/question/' + question_id);
           if (response.status === 200) {
             setSelectedQuestion(null);
             setQuestions(questions.filter((question) => question.question_id !== question_id));
@@ -107,7 +107,7 @@ function QuestionManagementcom() {
     }
 
     try {
-      const response = await axios.post('http://localhost:8080/api/question', newQuestion);
+      const response = await axios.post('https://apesctfapi.azurewebsites.net/api/question', newQuestion);
 
       if (response.data.status === 201) {
         // Show a success message with the API message
@@ -152,7 +152,7 @@ function QuestionManagementcom() {
     const question_id = selectedQuestion?.question_id;
 
     try {
-      const response = await axios.put('http://localhost:8080/api/question/' + question_id, {
+      const response = await axios.put('https://apesctfapi.azurewebsites.net/api/question/' + question_id, {
         question_title: selectedQuestion.question_title,
         question_desc: selectedQuestion.question_desc,
         answer: selectedQuestion.answer,

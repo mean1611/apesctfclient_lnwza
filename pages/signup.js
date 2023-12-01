@@ -30,7 +30,7 @@ function index() {
   
     if (validateForm(values)) {
       try {
-        const response = await axios.post("http://localhost:8080/api/user", values);
+        const response = await axios.post("https://apesctfapi.azurewebsites.net/api/user", values);
         
         if (response.data.status === 200) {
           // Show a success message with the API message

@@ -35,7 +35,7 @@ function index() {
     
     const fetchData = async () => {
       try {
-        const result = await axios.get(`http://localhost:8080/api/solve/userscore/${userdata.user_id}`);
+        const result = await axios.get(`https://apesctfapi.azurewebsites.net/api/solve/userscore/${userdata.user_id}`);
         setScore(result.data);
       } catch (error) {
         console.error("Error fetching user score:", error);
@@ -76,7 +76,7 @@ function index() {
       console.log("test info:",question_info)
     
       try {
-        const response = await axios.post("http://localhost:8080/api/solve", question_info);
+        const response = await axios.post("https://apesctfapi.azurewebsites.net/api/solve", question_info);
         console.log(response);
   
         const data = response;
@@ -121,7 +121,7 @@ function index() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/question")
+    fetch("https://apesctfapi.azurewebsites.net/api/question")
       .then((response) => response.json())
       .then((data) => {
         if (selectedCategory) {

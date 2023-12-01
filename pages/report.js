@@ -36,7 +36,7 @@ function ReportPage() {
     };
 
     try {
-      const response = await axios.post("http://localhost:8080/api/report", values);
+      const response = await axios.post("https://apesctfapi.azurewebsites.net/api/report", values);
 
       if (response.status === 200) {
         Swal.fire({

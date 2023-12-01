@@ -25,7 +25,7 @@ function Profile() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await axios.get(`http://localhost:8080/api/solve/userscore/${userdata.user_id}`);
+        const result = await axios.get(`https://apesctfapi.azurewebsites.net/api/solve/userscore/${userdata.user_id}`);
         setScore(result.data);
       } catch (error) {
         console.error('Error fetching user score:', error);
@@ -64,7 +64,7 @@ function Profile() {
     }
 
     try {
-      const result = await axios.get(`http://localhost:8080/api/userprofile/${userdata.user_id}`);
+      const result = await axios.get(`https://apesctfapi.azurewebsites.net/api/userprofile/${userdata.user_id}`);
 
       if (oldPassword !== result.data.data.password) {
         Swal.fire('Incorrect old password.', '', 'warning');
@@ -76,7 +76,7 @@ function Profile() {
         return;
       }
 
-      const passwordChangeResult = await axios.put(`http://localhost:8080/api/userprofile/password/${userdata.user_id}`, {
+      const passwordChangeResult = await axios.put(`https://apesctfapi.azurewebsites.net/api/userprofile/password/${userdata.user_id}`, {
         password: newPassword,
       });
 

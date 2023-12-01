@@ -10,7 +10,7 @@ function usermangecom() {
   const [itemsPerPage] = useState(10); // Show 10 items per page
 
   const getUser = async () => {
-    let result = await axios.get('http://localhost:8080/api/user');
+    let result = await axios.get('https://apesctfapi.azurewebsites.net/api/user');
     setUsers(result.data.data.sort((a, b) => a.user_id - b.user_id));
   };
 
@@ -48,7 +48,7 @@ function usermangecom() {
       cancelButtonText: 'Cancel',
     }).then(async (result) => {
       if (result.isConfirmed) {
-        const response = await axios.delete('http://localhost:8080/api/user/' + user_id);
+        const response = await axios.delete('https://apesctfapi.azurewebsites.net/api/user/' + user_id);
         Swal.fire({
           title: "Success!",
           text: response.data.message,
@@ -80,7 +80,7 @@ function usermangecom() {
       return;
     }
 
-    const response = await axios.put('http://localhost:8080/api/user/' + user_id, {
+    const response = await axios.put('https://apesctfapi.azurewebsites.net/api/user/' + user_id, {
       username: selectedUser.username,
       password: selectedUser.password,
     });

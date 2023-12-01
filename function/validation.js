@@ -64,7 +64,7 @@ const useValidation = () => {
       };
 
       // Send data to API
-      fetch("http://localhost:8080/api/user", {
+      fetch("https://apesctfapi.azurewebsites.net/api/user", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
