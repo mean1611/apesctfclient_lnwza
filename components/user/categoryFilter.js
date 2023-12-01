@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 
 function Categoryfilter({ onSelectCategory }) {
   const categories = [
@@ -16,7 +17,7 @@ function Categoryfilter({ onSelectCategory }) {
       <ul className="menu">
         {categories.map((category) => (
           <li key={category.id}>
-            <a
+            <Link
               href="/"
               onClick={(e) => {
                 e.preventDefault();
@@ -24,7 +25,7 @@ function Categoryfilter({ onSelectCategory }) {
               }}
             >
               {category.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

@@ -3,7 +3,7 @@ import axios from "axios";
 import Swal from "sweetalert2";
 import Pagination from "@/function/Pagination";
 
-function usermangecom() {
+function Usermangecom() {
   const [users, setUsers] = useState([]);
   const [selectedUser, setSelectedUser] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
@@ -189,4 +189,4 @@ function usermangecom() {
   );
 }
 
-export default usermangecom;
+export default Usermangecom;

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from 'next/link';
 function Navbaruser(props) {
   const { username, email, user_role_id } = props.userData;
   console.log("Username from localStorage:", username);
@@ -7,7 +7,7 @@ function Navbaruser(props) {
     return (
         <nav className="navbar  bg-primary text-neutral-content fixed top-0 w-full z-10" >
         <div className="flex-1 ">
-          <a href="/" className="btn btn-ghost " >
+          <Link href="/" className="btn btn-ghost " >
           <img
             src="/images/smiley.png"
             style={{ width: '50px', height: '50px' }} // กำหนดความกว้างและความสูง
@@ -16,9 +16,9 @@ function Navbaruser(props) {
             <span style={{ fontSize: '20px' ,fontWeight: 'bold'}}>APES</span>
             <span style={{ fontSize: '16px' ,fontWeight: 'bold' }}>CTF</span>
           </span>     
-          </a>
+          </Link>
 
-          <a className="btn btn-ghost" href="/learn">
+          <Link className="btn btn-ghost" href="/learn">
           <img
             src="/images/learn.png"
             style={{ width: '40px', height: '40px' }} // กำหนดความกว้างและความสูง
@@ -26,9 +26,9 @@ function Navbaruser(props) {
           <span>
             <span style={{ display: 'block',fontSize: '20px',fontWeight: 'bold'  }}>Learn</span>
           </span>      
-          </a>
+          </Link>
 
-          <a className="btn btn-ghost" href="/practice">
+          <Link className="btn btn-ghost" href="/practice">
           <img
             src="/images/practice.png"
             style={{ width: '50px', height: '40px' }} // กำหนดความกว้างและความสูง
@@ -36,9 +36,9 @@ function Navbaruser(props) {
           <span>
             <span style={{ display: 'block',fontSize: '20px',fontWeight: 'bold'  }}>Practice</span>
           </span>      
-          </a>
+          </Link>
 
-          <a className="btn btn-ghost" href="/report">
+          <Link className="btn btn-ghost" href="/report">
           <img
             src="/images/data-loss.png"
             style={{ width: '50px', height: '40px' }} // กำหนดความกว้างและความสูง
@@ -46,7 +46,7 @@ function Navbaruser(props) {
           <span>
             <span style={{ display: 'block',fontSize: '20px',fontWeight: 'bold'  }}>Bug Report</span>
           </span>      
-          </a>
+          </Link>
         </div>
         <h1>@{username}</h1>
         
@@ -58,9 +58,9 @@ function Navbaruser(props) {
           </label>
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2  bg-base-100 rounded-box w-52">
             <li>
-              <a href="/profile" className="justify-between">
+              <Link href="/profile" className="justify-between">
                 Profile
-              </a>
+              </Link>
             </li>
             <li><a onClick={() => {
           if (typeof window !== 'undefined') {
