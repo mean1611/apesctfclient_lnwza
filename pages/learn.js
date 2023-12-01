@@ -30,7 +30,7 @@ function Index() {
             </div>
             <div class="learn-column">
             <img
-                id="item1" src="/images/learn-pageicon.png" // เปลี่ยนเป็นที่อยู่ของรูปภาพของคุณ
+                id="item1" src="https://mean1611.github.io/apesctfclient_lnwza/images/learn-pageicon.png" // เปลี่ยนเป็นที่อยู่ของรูปภาพของคุณ
                 alt="Banner Image"
                 className="banner-image"
             />
@@ -42,7 +42,7 @@ function Index() {
             <div className="learn-content menu bg-primary w-56 text-base-100 col-span-4 w-full mb-10">
               
               <h1 className="learn-title   ">CTF คืออะไร</h1>
-              <img src="/images/csaw-2016.jpg "  className="place-self-start   mt-5 rounded-lg"/>
+              <img src="https://mean1611.github.io/apesctfclient_lnwza/images/csaw-2016.jpg "  className="place-self-start   mt-5 rounded-lg"/>
               <p id="item2" className="  ">CTF (Capture The Flag) คือการแข่งขันทางไซเบอร์ที่เน้นการทดสอบและปรับปรุงทักษะทางความปลอดภัยของผู้เข้าแข่งขัน 
                 <br/>โดยผู้เข้าแข่งขันจะต้องแก้ไขปัญหาทางความปลอดภัยที่หลากหลาย, เช่นการค้นหาช่องโหว่ในระบบ, การแก้ไขโปรแกรมที่ถูกคอมไพล์แล้ว,
                 <br/> และการตรวจสอบการป้องกันระบบ. การค้นหาธง (flag) เป็นวัตถุประสงค์หลักๆ ที่ถูกซ่อนอยู่ในระบบเพื่อแสดงว่าผู้เข้าแข่งขันได้ทำภารกิจนั้นเสร็จสิ้น.</p>
@@ -50,18 +50,18 @@ function Index() {
               <h1 className="mt-100px   ">รูปแบบการแข่งขัน CTF</h1>
               <p className="mt-5   ">รูปแบบการแข่งขัน CTF สามารถแบ่งออกเป็นหลายๆ ประเภท โดยบางประเภทอาจจะมีหลายรูปแบบย่อยภายในนั้นด้วย ต่อไปนี้คือหลายๆ หมวดการแข่งขัน CTF ที่พบบ่อย:</p>
 
-              <h2 className="text-error   ">Jeopardy-style CTF</h2><img src="/images/dashboard.png "  className="place-self-start mt-5 rounded-lg"/>
+              <h2 className="text-error   ">Jeopardy-style CTF</h2><img src="https://mean1611.github.io/apesctfclient_lnwza/images/dashboard.png "  className="place-self-start mt-5 rounded-lg"/>
               <p className="  ">ในรูปแบบนี้, มีหลายหมวดหมู่ที่แตกต่างกันเป็นข้อย่อย ๆ (category) เช่น Cryptography, Web, Forensics, Reverse Engineering, Pwn (Exploitation), และอื่น ๆ.
               <br/>ทีมที่แข่งขันต้องแก้ไขปัญหาในแต่ละหมวดหมู่เพื่อที่จะได้ธง (flag) ที่เป็นข้อความหรือรหัสที่เป็นบอกว่าทีมนั้นได้แก้ไขปัญหานั้น.</p>
 
               <h2 className="text-blue-600   ">Attack-Defense CTF</h2>
-              <img src="/images/attackdefend.png"  className="place-self-start mt-5 rounded-lg   "/>
+              <img src="https://mean1611.github.io/apesctfclient_lnwza/images/attackdefend.png"  className="place-self-start mt-5 rounded-lg   "/>
               <p className="">ในลักษณะนี้, ทีมแต่ละทีมจะมีเซิร์ฟเวอร์ของตัวเองที่เรียกว่า attack box และ defense box.
               <br/>ทีมต้องป้องกันเซิร์ฟเวอร์ของตนเองจากการโจมตี (defense) และพยายามโจมตีเซิร์ฟเวอร์ของทีมอื่น (attack).
               <br/>การป้องกันและโจมตีนั้นส่วนใหญ่จะเกี่ยวข้องกับการค้นหาช่องโหว่และการปรับแต่งระบบความปลอดภัย.</p>
               
               <h2 className="text-green-600   ">King of the Hill (KoTH) CTF</h2>
-              <img src="/images/CTFkingofthehill.png "  className="place-self-start mt-5 rounded-lg "/>
+              <img src="https://mean1611.github.io/apesctfclient_lnwza/images/CTFkingofthehill.png "  className="place-self-start mt-5 rounded-lg "/>
               <p id="item3" class>เป็นหนึ่งในรูปแบบของการแข่งขันทางความปลอดภัยที่นิยมและท้าทาย. ในรูปแบบนี้, 
               <br/>ทีมหรือผู้เข้าแข่งขันต้องพยายามครอบครอง (capture) หรือควบคุม ธง (flag) ที่อยู่บนระบบหรือเครือข่าย. 
               <br/>การครอบครองธงนั้นอาจมีลักษณะการแข่งขันแบบ คิงออฟเดอะฮิล โดยทีมที่ครอบครองธงได้มากที่สุดจะได้รับคะแนนมากที่สุด.</p>

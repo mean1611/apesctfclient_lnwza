@@ -167,7 +167,7 @@ function Index() {
         </div>
         <div className="practice-column">
           <img
-            src="/images/hackerpt.png"
+            src="https://mean1611.github.io/apesctfclient_lnwza/images/hackerpt.png"
             alt="Banner Image"
             className="banner-image"
           />
@@ -181,7 +181,7 @@ function Index() {
 
           <div className="card row-start-1 col-start-1 col-span-3 ">  
           <div className="rounded-lg bg-green-500 btn-active flex btn-lg" data-tip="Sum score">
-            <img className="mt-2 mr-2" src="/images/sumscore.png" style={{ width: '50px', height: '50px' }} />
+            <img className="mt-2 mr-2" src="https://mean1611.github.io/apesctfclient_lnwza/images/sumscore.png" style={{ width: '50px', height: '50px' }} />
             <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}></span>
             <p className="text-5xl	text-base-100 mt-2">Your score: {userscore.score}</p>
           </div>
