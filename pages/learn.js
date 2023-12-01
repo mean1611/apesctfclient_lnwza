@@ -5,7 +5,7 @@ import Navbar from "../components/home/navbar.js";
 import Menulearn from "@/components/home/menu-learn.js";
 import Footer from "../components/home/footer.js";
 
-function index() {
+function Index() {
   const [userdata, setUserdata] = useState(null);
 
   useEffect(() => {
@@ -115,4 +115,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;

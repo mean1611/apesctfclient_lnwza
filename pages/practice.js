@@ -5,7 +5,7 @@ import Categoryfilter from "../components/user/categoryFilter.js";
 import Swal from 'sweetalert2';
 // import Profileuser from '../components/user/profileuser';
 
-function index() {
+function Index() {
   const [questions, setQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [showPopup, setShowPopup] = useState(false);
@@ -282,4 +282,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;

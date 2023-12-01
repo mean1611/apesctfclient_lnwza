@@ -4,7 +4,7 @@ import useValidation from "../function/validation.js";
 import axios from "axios";
 import Swal from "sweetalert2";
 
-function index() {
+function Index() {
   const [message, setMessage] = useState("Loading");
   const { errors, validateForm } = useValidation();
 
@@ -152,4 +152,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;

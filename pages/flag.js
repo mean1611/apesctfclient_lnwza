@@ -1,6 +1,6 @@
 import React from "react";
 
-function index() {
+function Index() {
 
   const message = "APESCTF{Ez_d1r3ct0ry_tr4vers4l}";
 
@@ -11,4 +11,4 @@ function index() {
   )
 }
 
-export default index
+export default Index
