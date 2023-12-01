@@ -31,7 +31,7 @@ function Login() {
       if (response.status === 200) {
         const user = await response.json();
         localStorage.setItem("user", JSON.stringify(user.data));
-        window.location.href = "/profile";
+        window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/profile";
         swal.fire({
           icon: 'success',
           title: 'Login successful',
