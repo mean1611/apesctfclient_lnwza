@@ -1,0 +1,590 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&family=Raleway:wght@300&display=swap');
+
+.custom-font {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-family: 'Goldman', cursive;
+  }
+  
+  
+.banner {
+  background-image: url("/images/galaxy.png"); 
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+  margin-top: 3% ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; 
+  padding: 20px;
+  height: 400px;
+}
+
+.banner-image {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px; 
+  width: 200px; 
+  height: 200px; 
+}
+
+.banner-text {
+  text-align: left; 
+  color: #f1f1f1; 
+  
+}
+
+.banner-text h1 {
+  font-size: 50px; 
+  margin: 0;
+  font-family: 'Goldman', cursive;
+  
+}
+
+.banner-text p {
+  font-size: 25px; 
+  margin: 5px 0;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  font-family: 'Goldman', cursive;
+}
+
+
+.bodywhatisctf {
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 400px;
+}
+
+
+
+.bodywhatisctf-image {
+  
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px; 
+  width: 250px;
+  height: 200px; 
+  
+}
+
+.bodywhatisctf-text {
+  text-align: left; 
+  color: #000000; 
+  
+}
+
+.bodywhatisctf-text h1 {
+  font-size: 50px; 
+  margin: 0;
+  font-family: 'IBM Plex Sans Thai', cursive;
+  
+}
+
+.bodywhatisctf-text p {
+  font-size: 20px; 
+  margin: 5px 0;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.bodyknowctf {
+  
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px; 
+}
+
+.card-body h2 {
+  font-size: 25px; 
+  margin: 5px 0;
+  font-family: 'Goldman', cursive;
+}
+
+.card-body p {
+  font-size: 20px; 
+  font-family: 'IBM Plex Sans Thai', sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  line-height: 1; 
+}
+
+.bodyknowctf-image {
+  
+  max-width: 100%;
+  height: auto;
+  margin-right: 50px; 
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px; 
+  height: 400px; 
+}
+
+.knowgood {
+  font-family: 'IBM Plex Sans Thai', sans-serif; 
+}
+
+.carousel {
+  height: 600px; 
+}
+
+.bodyjob {
+ flex-direction: column;
+ background-size: 100% 100%; 
+ background-repeat: no-repeat; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ height: auto;
+ column-count: 1;
+}
+
+.bodyjob h1 {
+  font-size: 50px; 
+  margin: 0;
+  font-family: 'IBM Plex Sans Thai', cursive;
+  
+}
+
+.bodyjob-image {
+  
+  max-width: 100%;
+  height: auto;
+ 
+  width: 400px; 
+  height: 300px; 
+  
+}
+
+.bodyjob-text {
+  text-align: left; 
+  color: #000000; 
+  
+}
+
+.bodyjob-text h1 {
+  font-size: 50px; 
+  margin: 0;
+  font-family: 'Goldman', cursive;
+  
+}
+
+.bodyjob-text p {
+  font-size: 20px; 
+  margin: 5px 0;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.getstart{
+  flex-direction: column;
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: auto;
+  column-count: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px; 
+}
+
+.getstart-column {
+  text-align: center;
+}
+
+.getstart-text h1 {
+  font-size: 30px; 
+  margin: 0;
+  font-family: 'IBM Plex Sans Thai', cursive;
+  
+}
+
+.getstart-button {
+  flex-direction: row;
+  background-size: 100% 100%;
+  font-family: 'Goldman', cursive;
+  
+}
+
+.getstart-text {
+  font-size: 40px; 
+  margin: 0;
+  font-family: 'Goldman', cursive;
+}
+
+.getstart-btn{
+  color: #f1f1f1;
+}
+
+.form-control {
+  width: 100%; 
+  max-width: 300px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.hero-content h1{   
+  font-family: 'Goldman', cursive;
+}
+
+.hero-content p{   
+  font-family: 'IBM Plex Sans Thai', cursive;
+}
+
+.hero {
+  background-image: url("/images/fadecolourwall.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 100%;
+}
+
+.learn-banner-text { 
+  color: #f1f1f1; 
+  margin-right: 500px;
+}
+
+.learn-banner-text h1 {
+  font-size: 50px; 
+  font-family: 'Goldman', cursive;
+  
+}
+
+.learn-banner-text p {
+  font-size: 25px; 
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.learn-image{
+  width: 75px;
+  height: 75px;
+  margin-top: 20px;
+}
+
+.learn-body  {
+  background-size: 100% 100%;
+  font-size: 15px;
+  
+}
+
+
+
+.banner-learn {
+  background-image: url("/images/Matrix.jpg");
+  background-color: rgb(143, 142, 155);
+  background-size: 100% 100% ; 
+  background-repeat: no-repeat; 
+  margin-top: 3% ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 470px;
+}
+
+.body-profile {
+  background-size: 300px 100px; 
+  background-repeat: no-repeat; 
+  display: flex;
+  flex-direction: column;  /* กำหนดให้เรียงลงมาเป็นคอลัมน์ */
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  font-family: 'Goldman', cursive;
+}
+
+/* ตัวอย่างการกำหนดคุณสมบัติสี */
+.col-1 {
+  background-color: #f0f0f0;  /* เปลี่ยนสีตามที่คุณต้องการ */
+  width: 100%;  /* กำหนดความกว้างเต็มหน้าจอ */
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* เพิ่มเงา */
+}
+
+
+.menu-learn{
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+  display: flex;
+  padding: 20px;
+  height: 100%;
+  font-family: 'Goldman', cursive;
+
+}
+
+.menu-learn div {
+  margin-left: 50%;
+}
+
+.learn-content{
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+  display: flex;
+  padding: 20px;
+  height: 100%;
+}
+
+.learn-content  h1{
+  font-size: 50px; 
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  margin-top: 60px;
+}
+
+.learn-content  h2{
+  font-size: 30px; 
+  font-family: 'Goldman', cursive;
+  margin-top: 50px;
+}
+
+.learn-content  h3{
+  font-size: 30px; 
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  margin-top: 50px;
+}
+
+.learn-content  p{
+  font-size: 17px; 
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  margin-top: 25px;
+}
+
+
+.practice-banner-text { 
+  color: #f1f1f1; 
+  margin-right: 500px;
+}
+
+.practice-banner-text h1 {
+  font-size: 50px;
+  font-family: 'Goldman', cursive;
+  
+}
+
+.practice-banner-text p {
+  font-size: 25px; 
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+
+.practice-content  {
+  font-size: 15px;
+  height: 500px;
+}
+
+.bodyjobh2 h1{
+  font-size: 50px; 
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+
+}
+
+.bodyjob a {
+  font-size: 30px; 
+  font-family: 'Goldman', cursive;
+}
+
+.banner-practice {
+  background-image: url("/images/Matrix.jpg");
+  background-color: rgb(143, 142, 155);
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+  margin-top: 3% ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 350px;
+}
+
+
+.profileimg img{
+  width: 150px;
+  height: 150px;
+}
+
+
+
+
+.profilecard p{
+  font-size: 17px;
+  font-family: 'Goldman', cursive;
+}
+
+.reporttop{
+  height: 60px;
+  font-size: 25px;  
+  text-align: center;
+  font-family: 'Goldman', cursive;
+
+}
+
+.report-component{
+  font-family: 'Goldman', cursive;
+  margin-top: 3%;
+  width: 100%;
+  height: 900px;
+}
+
+
+
+.report-bar textarea {
+  resize: none;
+}
+
+.userreport{
+  margin-top: 3%;
+  height: 800px;
+}
+
+
+
+.practice-body {
+  font-family: 'Goldman', cursive;
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+  background-color: #232140; 
+  height: 750px;
+}
+
+.practice-button{
+  width: 225px;
+  height: 200px;
+}
+
+
+
+.practice-body h1{
+  font-size: 20px;
+  font-family: 'Goldman', cursive;
+}
+
+.practice-body a{
+    background-image: url("/images/category_image.png");
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-info-head h2{
+  font-size: 25px;
+  font-family: 'Goldman', cursive;
+
+}
+
+.tab{
+  color: #f0f0f0;
+  width: 100%;
+  height: 100%;
+}
+
+.tab-active {
+  background-color: #ffffff; /* เปลี่ยนสีพื้นหลังของแท็บที่ถูกเลือกเป็นสีเขียว */
+  color: #232140; /* เปลี่ยนสีข้อความในแท็บที่ถูกเลือกเป็นสีขาว */
+  /* เพิ่มสไตล์อื่น ๆ ตามที่คุณต้องการ */
+}
+
+.questionunderline{
+  height: 5px;
+  background-color: #989898;
+
+}
+
+.hintbutton{
+  background-color: #6F64B1;
+}
+
+.submitbutton{
+  background-color: #6484B1;
+}
+
+.hint-text{
+  font-family: 'Goldman', cursive;
+}
+
+.desc-text{
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.popup-card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 375px;
+  height: 300px;
+  
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  gap: 16px; /* ระยะห่างระหว่าง columns */
+  font-family: 'Goldman', cursive;
+  background-size: 100% 100%; 
+  
+}
+
+.card-question{
+  background-image: url("/images/category_image.png");
+  background-size: 100% 100%; 
+  width: 375px;
+  height: 330px;
+}
+
+.text-cate{
+  font-family: 'Goldman', cursive;
+}
+
+.modal-box{
+  background-size: 100% 100%; 
+  font-family: 'Goldman', cursive;
+
+}
+
+.question-content{
+    font-size: 20px;
+}
+
+
+
