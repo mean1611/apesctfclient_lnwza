@@ -9,7 +9,7 @@ function Navbaruser(props) {
         <div className="flex-1 ">
           <Link href="/" className="btn btn-ghost " >
           <img
-            src="mean1611.github.io/apesctfclient_lnwza/images/smiley.png"
+            src="./apesctfclient_lnwza/images/smiley.png"
             style={{ width: '50px', height: '50px' }} // กำหนดความกว้างและความสูง
             />  
             <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
