@@ -78,7 +78,7 @@ function Index() {
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <div className="card-body grid place-items-center">
               <img
-                src="/images/smiley.png"
+                src="https://mean1611.github.io/apesctfclient_lnwza/images/smiley.png"
                 style={{ width: "100px", height: "100px" }}
                 alt="Smiley Face"
                 flex
