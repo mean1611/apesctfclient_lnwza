@@ -6,7 +6,7 @@ function Bodyknowctf() {
             <div className="carousel w-full bg-primary ">
             <div id="item1" className="carousel-item w-full center  justify-center items-center  ">
                 <div className="card card-side bg-base-100 shadow-xl">
-                    <figure><img src="/images/skills.png" alt="Album" className="bodyknowctf-image"/></figure>
+                    <figure><img src="https://mean1611.github.io/apesctfclient_lnwza/images/skills.png" alt="Album" className="bodyknowctf-image"/></figure>
                     <div className="card-body">
                         <h2 className="card-title">General Skills</h2>
                         <p> เป็นทักษะพื้นฐานที่จำเป็นสำหรับผู้ที่ทำงาน 
@@ -20,7 +20,7 @@ function Bodyknowctf() {
             </div>
             <div id="item2" className="carousel-item w-full center flex justify-center items-center">
                 <div className="card lg:card-side bg-base-100 shadow-xl">
-                    <figure><img src="/images/cryptography.png" alt="Album "className="bodyknowctf-image" /></figure>
+                    <figure><img src="https://mean1611.github.io/apesctfclient_lnwza/images/cryptography.png" alt="Album "className="bodyknowctf-image" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Cryptography</h2>
                         <p> เป็นการศึกษาและการปฏิบัติเกี่ยวกับ 
@@ -34,7 +34,7 @@ function Bodyknowctf() {
             </div>
             <div id="item3" className="carousel-item w-full center flex justify-center items-center">
                 <div className="card lg:card-side bg-base-100 shadow-xl">
-                    <figure><img src="/images/mobile.png" alt="Album"className="bodyknowctf-image" /></figure>
+                    <figure><img src="https://mean1611.github.io/apesctfclient_lnwza/images/mobile.png" alt="Album"className="bodyknowctf-image" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Web/Mobile Exploitation</h2>
                         <p>หมวดนี้เกี่ยวกับการทดสอบความปลอดภัยของ 
@@ -47,7 +47,7 @@ function Bodyknowctf() {
             </div>
             <div id="item4" className="carousel-item w-full center flex justify-center items-center">
                 <div className="card lg:card-side bg-base-100 shadow-xl">
-                    <figure><img src="/images/forensics.png" alt="Album"className="bodyknowctf-image" /></figure>
+                    <figure><img src="https://mean1611.github.io/apesctfclient_lnwza/images/forensics.png" alt="Album"className="bodyknowctf-image" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Forensics</h2>
                         <p>Forensics ในบริบทของความปลอดภัยคอมพิวเตอร์ 
@@ -61,7 +61,7 @@ function Bodyknowctf() {
             </div>
             <div id="item5" className="carousel-item w-full center flex justify-center items-center py-5">
                 <div className="card lg:card-side bg-base-100 shadow-xl">
-                    <figure><img src="/images/reverseengineering.png" alt="Album"className="bodyknowctf-image" /></figure>
+                    <figure><img src="https://mean1611.github.io/apesctfclient_lnwza/images/reverseengineering.png" alt="Album"className="bodyknowctf-image" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Reverse Engineering</h2>
                         <p>เป็นกระบวนการสำหรับการวิเคราะห์ 

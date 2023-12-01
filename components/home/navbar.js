@@ -10,7 +10,7 @@ function Navbar() {
           <Link href="/" className="btn btn-ghost">
           
             <img
-              src="/images/smiley.png"
+              src="https://mean1611.github.io/apesctfclient_lnwza/images/smiley.png"
               style={{ width: '50px', height: '50px' }}
             />
             <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
@@ -22,7 +22,7 @@ function Navbar() {
 
           <Link href="/learn" className="btn btn-ghost" >
           <img
-            src="/images/learn.png"
+            src="https://mean1611.github.io/apesctfclient_lnwza/images/learn.png"
             style={{ width: '40px', height: '40px' }} // กำหนดความกว้างและความสูง
             />  
           
@@ -32,7 +32,7 @@ function Navbar() {
 
           <Link className="btn btn-ghost" href="/login">
           <img
-            src="/images/practice.png"
+            src="https://mean1611.github.io/apesctfclient_lnwza/images/practice.png"
             style={{ width: '50px', height: '40px' }} // กำหนดความกว้างและความสูง
             />  
           <span>

@@ -4,7 +4,7 @@ function Bodywhatisctf() {
     return (
       <div className="bodywhatisctf bg-primary">
         <img
-          src="/images/ctf.png" // เปลี่ยนเป็นที่อยู่ของรูปภาพของคุณ
+          src="https://mean1611.github.io/apesctfclient_lnwza/images/ctf.png" // เปลี่ยนเป็นที่อยู่ของรูปภาพของคุณ
           alt="bodywhatisctf Image"
           className="bodywhatisctf-image"
         />

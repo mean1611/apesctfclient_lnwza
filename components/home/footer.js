@@ -6,7 +6,7 @@ function Footer() {
             
         <aside>
             <img
-            src="/images/smiley.png"
+            src="https://mean1611.github.io/apesctfclient_lnwza/images/smiley.png"
             style={{ width: '50px', height: '50px' }} // กำหนดความกว้างและความสูง
             /> 
             <p className="font-bold">

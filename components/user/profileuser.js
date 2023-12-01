@@ -13,7 +13,7 @@ function Profileuser({ userData , UserScore}) {
         <h2 className="card-title text-base-100 text-sm place-self-center">{email}</h2>
         <div className="card ">  
         <div className="card bg-green-500 btn-active  flex btn-lg" data-tip="Sum score">
-            <img className="place-self-center" src="/images/sumscore.png" style={{ width: '40px', height: '40px' }} />
+            <img className="place-self-center" src="https://mean1611.github.io/apesctfclient_lnwza/images/sumscore.png" style={{ width: '40px', height: '40px' }} />
             <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}></span>
             <p className="text-5xl place-self-center	text-base-100 mt-5">Your score: {UserScore}</p>
           </div>
