@@ -9,7 +9,7 @@ function Navbaruser(props) {
         <div className="flex-1 ">
           <Link href="/" className="btn btn-ghost " >
           <img
-            src="./apesctfclient_lnwza/images/smiley.png"
+            src="https://mean1611.github.io/apesctfclient_lnwza/images/smiley.png"
             style={{ width: '50px', height: '50px' }} // กำหนดความกว้างและความสูง
             />  
             <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
@@ -20,7 +20,7 @@ function Navbaruser(props) {
 
           <Link className="btn btn-ghost" href="/learn">
           <img
-            src="/images/learn.png"
+            src="https://mean1611.github.io/apesctfclient_lnwza/images/learn.png"
             style={{ width: '40px', height: '40px' }} // กำหนดความกว้างและความสูง
             />  
           <span>
@@ -30,7 +30,7 @@ function Navbaruser(props) {
 
           <Link className="btn btn-ghost" href="/practice">
           <img
-            src="/images/practice.png"
+            src="https://mean1611.github.io/apesctfclient_lnwza/images/practice.png"
             style={{ width: '50px', height: '40px' }} // กำหนดความกว้างและความสูง
             />  
           <span>
@@ -40,7 +40,7 @@ function Navbaruser(props) {
 
           <Link className="btn btn-ghost" href="/report">
           <img
-            src="/images/data-loss.png"
+            src="https://mean1611.github.io/apesctfclient_lnwza/images/data-loss.png"
             style={{ width: '50px', height: '40px' }} // กำหนดความกว้างและความสูง
             />  
           <span>
@@ -65,7 +65,7 @@ function Navbaruser(props) {
             <li><a onClick={() => {
           if (typeof window !== 'undefined') {
             localStorage.removeItem("user");
-            window.location.href = "/";
+            window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/";
           }
         }}>Logout</a></li>
           </ul>
