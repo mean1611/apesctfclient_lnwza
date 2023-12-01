@@ -7,7 +7,7 @@ function  Profileadmin() {
             <div className="profilecard card w-96 bg-base-100 shadow-xl  ">
                 <div className="profileimg card card-body items-center pt-10 bg-primary grid flex justify-center ">
                     
-                    <img  src="../images/profile.png"  className="rounded-xl place-self-center"/>
+                    <img  src="https://mean1611.github.io/apesctfclient_lnwza/images/profile.png"  className="rounded-xl place-self-center"/>
                     <h2 className="card-title  text-base-100 text-sm place-self-center">@admin</h2>
 
                 </div>

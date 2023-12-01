@@ -10,7 +10,7 @@ function Navbaradmin() {
         <Link href="/" className="btn btn-ghost">
           
             <img
-              src="/images/smiley.png"
+              src="https://mean1611.github.io/apesctfclient_lnwza/images/smiley.png"
               style={{ width: '50px', height: '50px' }}
             />
             <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
@@ -23,7 +23,7 @@ function Navbaradmin() {
         <Link href="/questionmanage" className="btn btn-ghost">
           
             <img
-              src="/images/practice.png"
+              src="https://mean1611.github.io/apesctfclient_lnwza/images/practice.png"
               style={{ width: '50px', height: '40px' }}
             />
             <span>
@@ -35,7 +35,7 @@ function Navbaradmin() {
         <Link href="/usermange" className="btn btn-ghost">
           
             <img
-              src="/images/usermange.png"
+              src="https://mean1611.github.io/apesctfclient_lnwza/images/usermange.png"
               style={{ width: '50px', height: '40px' }}
             />
             <span>
@@ -47,7 +47,7 @@ function Navbaradmin() {
         <Link href="/adminreport" className="btn btn-ghost">
           
             <img
-              src="/images/search.png"
+              src="https://mean1611.github.io/apesctfclient_lnwza/images/search.png"
               style={{ width: '50px', height: '40px' }}
             />
             <span>
@@ -61,12 +61,12 @@ function Navbaradmin() {
       <div className="dropdown dropdown-end flew-none">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
           <div className="w-10 rounded-full">
-            <img src="/images/profile.png" />
+            <img src="https://mean1611.github.io/apesctfclient_lnwza/images/profile.png" />
           </div>
         </label>
         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2  bg-base-100 rounded-box w-52">
           <li>
-            <Link href="/profile" className="justify-between">
+            <Link href="https://mean1611.github.io/apesctfclient_lnwza/profile" className="justify-between">
               
                 Profile
               
@@ -76,7 +76,7 @@ function Navbaradmin() {
             <a onClick={() => {
               if (typeof window !== 'undefined') {
                 localStorage.removeItem("user");
-                window.location.href = "/";
+                window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/";
               }
             }}>Logout</a>
           </li>
