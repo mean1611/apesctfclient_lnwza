@@ -33,17 +33,15 @@ function Index() {
         const response = await axios.post("https://apesctfapi.azurewebsites.net/api/user", values);
         
         if (response.data.status === 200) {
-          // Show a success message with the API message
           Swal.fire({
             title: "Success!",
             text: response.data.message, // Use the message from the API
             icon: "success",
             confirmButtonText: "OK",
             timer: 3000,
-          });
-  
-          // Redirect to the login page or perform any other actions
-          window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/login";
+          },
+          window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/login");
+          
         } else {
           // Show an error message with the API message
           Swal.fire({
