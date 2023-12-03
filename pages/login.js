@@ -37,6 +37,8 @@ function Login() {
           title: 'Login successful',
           timer: 3000,
         });
+        window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/profile";
+        
       } else if (response.status === 401) {
         swal.fire({
           icon: 'error',
