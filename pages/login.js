@@ -31,12 +31,13 @@ function Login() {
       if (response.status === 200) {
         const user = await response.json();
         localStorage.setItem("user", JSON.stringify(user.data));
-        window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/profile";
         swal.fire({
           icon: 'success',
           title: 'Login successful',
-          timer: 3000,
+          timer: 4000,
+          showConfirmButton: false
         });
+        window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/profile";
       } else if (response.status === 401) {
         swal.fire({
           icon: 'error',
