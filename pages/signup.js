@@ -39,10 +39,8 @@ function Index() {
             text: response.data.message, // Use the message from the API
             icon: "success",
             confirmButtonText: "OK",
+            timer: 3000,
           });
-          setTimeout(function(){
-            window.location.reload();
-         }, 3000);
   
           // Redirect to the login page or perform any other actions
           window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/login";
