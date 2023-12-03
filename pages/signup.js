@@ -42,7 +42,7 @@ function Index() {
           });
           setTimeout(function(){
             window.location.reload();
-         }, 1500);
+         }, 3000);
   
           // Redirect to the login page or perform any other actions
           window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/login";

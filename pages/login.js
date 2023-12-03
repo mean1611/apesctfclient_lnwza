@@ -31,15 +31,15 @@ function Login() {
       if (response.status === 200) {
         const user = await response.json();
         localStorage.setItem("user", JSON.stringify(user.data));
-        window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/profile";
         swal.fire({
           icon: 'success',
           title: 'Login successful',
         });
         setTimeout(function(){
           window.location.reload();
-       }, 1500);
+       }, 3000);
       } else if (response.status === 401) {
+        window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/profile";
         swal.fire({
           icon: 'error',
           title: 'Error',
