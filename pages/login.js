@@ -34,11 +34,9 @@ function Login() {
         swal.fire({
           icon: 'success',
           title: 'Login successful',
-          timer: 4000,
-          showConfirmButton: false
+          timer: 3000,
         },
-        window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/profile");
-        
+        window.location.href = "/profile");
       } else if (response.status === 401) {
         swal.fire({
           icon: 'error',
