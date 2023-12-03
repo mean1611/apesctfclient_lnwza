@@ -9,7 +9,7 @@ function Login() {
   useEffect(() => {
     const userdata = localStorage.getItem("user");
     if (userdata) {
-      window.location.href = "/profile";
+      window.location.href = "https://mean1611.github.io/apesctfclient_lnwza/profile";
     }
   }, []);
 
