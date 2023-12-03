@@ -39,6 +39,7 @@ function Index() {
             text: response.data.message, // Use the message from the API
             icon: "success",
             confirmButtonText: "OK",
+            timer: 3000,
           });
   
           // Redirect to the login page or perform any other actions
@@ -50,6 +51,7 @@ function Index() {
             text: response.data.message, // Use the message from the API
             icon: "error",
             confirmButtonText: "OK",
+            timer: 3000,
           });
         }
       } catch (error) {
@@ -59,6 +61,7 @@ function Index() {
           text: "An error occurred while processing your request",
           icon: "error",
           confirmButtonText: "OK",
+          timer: 3000,
         });
       }
     }

@@ -35,12 +35,14 @@ function Login() {
         swal.fire({
           icon: 'success',
           title: 'Login successful',
+          timer: 3000,
         });
       } else if (response.status === 401) {
         swal.fire({
           icon: 'error',
           title: 'Error',
           text: 'Username or password is incorrect.',
+          timer: 3000,
         });
       } else {
         swal.fire({
