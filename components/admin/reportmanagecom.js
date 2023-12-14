@@ -88,7 +88,7 @@ function ReportManagementcom() {
       <div className="reporttop card bg-primary flex justify-center ">
         <h2 className="text-base-100">REPORT</h2>
       </div>
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto show-data">
         <table className="table table-zebra">
           <thead>
             <tr>
@@ -155,10 +155,10 @@ function ReportManagementcom() {
         </form>
 
         <div className="row-start-3 grid grid-cols-2 col-start-1 col-span-2 mt-5 gap-5 mb-3">
-          <button className="btn btn-error mt-3 col-start-1 w-64 ml-auto" onClick={handleClickDelete}>
+          <button className="btn btn-error mt-3 col-start-1 w-40 ml-auto" onClick={handleClickDelete}>
             DELETE
           </button>
-          <button className="btn mt-3 col-start-2 inset-y-0 left-0 w-64" onClick={handleClearFields}>
+          <button className="btn mt-3 col-start-2 inset-y-0 left-0 w-40" onClick={handleClearFields}>
             CLEAR
           </button>
         </div>

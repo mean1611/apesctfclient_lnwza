@@ -68,7 +68,7 @@ function SendReport() {
   return (
     <div className="report-component card   shadow-xl  ">
       
-      <div className="report-bar card-body ">
+      <div className="report-bar card-body place-items-center bg-base-300">
         <label className="label">
           <h2 className="label-text ">Report</h2>
         </label>
@@ -85,7 +85,7 @@ function SendReport() {
         <textarea
           type="text"
           placeholder="Detail"
-          className="report-detail  w-full h-full appearance-none block eounded-lg bg-base-100 border py-4 px-3 focus:outline-none"
+          className="report-detail   appearance-none block rounded-lg bg-base-100 border py-4 px-3 focus:outline-none"
           value={formData.description}
           onChange={(e) => setFormData({ ...formData, description: e.target.value })}
           maxLength={255} // Set the maximum length

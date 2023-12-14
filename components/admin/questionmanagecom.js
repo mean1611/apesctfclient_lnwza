@@ -187,7 +187,7 @@ function QuestionManagementcom() {
       <div className="reporttop card bg-primary flex justify-center">
         <h2 className="text-base-100">QUESTION</h2>
       </div>
-      <div className="overflow-x-auto">
+      <div className="show-data overflow-x-auto ">
         <table className="table table-zebra">
           <thead>
             <tr>
@@ -264,8 +264,6 @@ function QuestionManagementcom() {
             <input type="text" placeholder="Title" className="input input-bordered w-full max-w-xs" name="question_title" value={selectedQuestion?.question_title || ""} onChange={handleInputChange} />
             </div>
 
-            
-
             <div className="ml-5 row-start-3">
             <label className="label">
               <span className="label-text">Answer</span>
@@ -291,20 +289,20 @@ function QuestionManagementcom() {
             <label className="label">
               <span className="label-text">Description</span>
             </label>
-            <textarea type="text" placeholder="Description" className="input input-bordered w-full max-w-xs" style={{ resize: "none", width: "400px", height: "200px" }}  name="question_desc" value={selectedQuestion?.question_desc || ""} onChange={handleInputChange} />
+            <textarea type="text" placeholder="Description" className="input input-bordered w-full max-w-xs" style={{ resize: "none", width: "400px", height: "100px" }}  name="question_desc" value={selectedQuestion?.question_desc || ""} onChange={handleInputChange} />
             </div>
             
           </form>
           <div className=" grid grid-cols-3 row-start-3 col-start-2  mt-5 mb-2 gap-4">
-           <button className="btn btn-success " onClick={handleSubmit} type="submit">
+           <button className="btn btn-success w-40 place-self-end" onClick={handleSubmit} type="submit">
             SAVE
             </button>
             
-            <button className="btn btn-error " onClick={handleClickDelete}>
+            <button className="btn btn-error w-40 place-self-center" onClick={handleClickDelete}>
             DELETE
             </button>
 
-            <button className="btn bg-base-300 " onClick={handleClickCancel} type="button">
+            <button className="btn bg-base-300 w-40 place-self-start" onClick={handleClickCancel} type="button">
               CANCEL
             </button>
           </div>
@@ -378,17 +376,17 @@ function QuestionManagementcom() {
               name="question_desc"
               value={newQuestion.question_desc}
               onChange={handleNewQuestionChange}
-              style={{ resize: "none", width: "400px", height: "200px" }} // Set the width and height
+              style={{ resize: "none", width: "400px", height: "100px" }} // Set the width and height
             />
           </div>
 
 
             </form>
-          <div className="flex items-center grid grid-cols-4 row-start-2 col-start-1 col-span-3 mt-5 mb-2">
-            <button className="btn btn-success col-start-2" type="button" onClick={handleCreateQuestion}>
+          <div className=" grid grid-cols-4 row-start-2 col-start-1 col-span-3 mt-5 mb-2 place-items-center">
+            <button className="btn btn-success col-start-2 w-40 place-self-end" type="button" onClick={handleCreateQuestion}>
                 Create
               </button>
-              <button className="btn bg-base-300 ml-2" type="button" onClick={() => setNewQuestion({
+              <button className="btn bg-base-300 ml-2 w-40 place-self-start" type="button" onClick={() => setNewQuestion({
               question_title: "",
               question_desc: "",
               answer: "",

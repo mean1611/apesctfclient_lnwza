@@ -95,7 +95,7 @@ function Index() {
           Swal.fire({
             title: 'You have solved this challenge correctly again.',
             icon: 'info',
-            confirmButtonText: 'ตกลง'
+            confirmButtonText: 'ok'
           });
           
         }
@@ -107,7 +107,7 @@ function Index() {
       Swal.fire({
         title: 'The answer is incorrect.',
         icon: 'error',
-        confirmButtonText: 'ตกลง'
+        confirmButtonText: 'ok'
       });
     }
     setAnswer("");
